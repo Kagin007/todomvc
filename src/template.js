@@ -21,6 +21,7 @@ export default class Template {
 					<input class="toggle" type="checkbox" {{checked}}>
 					<label>{{title}}</label>
 					<button class="destroy"></button>
+					<div>ADAM TEST</div>
 				</div>
 			</li>
 		`;

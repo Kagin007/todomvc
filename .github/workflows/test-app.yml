@@ -6,7 +6,8 @@ jobs:
   cypress-run:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+
+      - name: Checkout # checks out our repo and pulls it into the pipeline
         uses: actions/checkout@v2
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
